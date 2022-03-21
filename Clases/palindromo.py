@@ -1,16 +1,16 @@
-palabra = input("Introduce la palabra que quieras comprobar si es un palindromo")
+palabra = input("Introduce la palabra que quieras comprobar si es un palindromo: ")
 class palindromo:
-    def iniciar (self,p):
-      self.cadena = p
+    def iniciar (self,palabra):
+      self.palabra = palabra
 
     def correcto(self):
       if len(palabra) < 1:
-        print ( self.cadena ," es un palindromo!")
+        print ( self.palabra ," es un palindromo!")
       else:
-         if palabra[0] == palabra[-1]:
+        if palabra[0] == palabra[-1]:
            palindromo(palabra[1:-1])
-           else:
-                print(self.cadena, "no es un palindromo")
+        else:
+           print(self.palabra, "no es un palindromo")
 
 
 
