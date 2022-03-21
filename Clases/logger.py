@@ -3,8 +3,15 @@ Class Test():
   def llamada(self,p):
     self.palabra = p
     for i in range (1,n):
-      
+      if i == 1:
+         test.llamada(palabra , "1")
+      else:
+        test.llamada("{}ª" , palabra,format(string) )
 
+$> cat log.txt
+-- Start log--
+  palabra
+-- End log: n log(s)--
 
 
 
