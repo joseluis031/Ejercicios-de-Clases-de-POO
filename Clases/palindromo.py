@@ -4,7 +4,7 @@ class palindromo:
       self.palabra = palabra
 
     def correcto(self):
-      if len(palabra) < 1:
+      if len(self.palabra) < 1:
         print ( self.palabra ," es un palindromo!")
       else:
         if palabra[0] == palabra[-1]:
