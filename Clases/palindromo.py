@@ -16,6 +16,7 @@ class palindromo:
 
 palindromo1 = palindromo()
 palindromo1.iniciar(palabra)
+palindromo1.correcto()
 
 
 
