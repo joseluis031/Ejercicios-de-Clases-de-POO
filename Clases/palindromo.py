@@ -1,6 +1,15 @@
 palabra = input("Introduce la palabra que quieras comprobar si es un palindromo")
 class Palindromo:
-    
+    def iniciar (self,)
+
+
+
+
+
+
+
+
+  
     def palindromo(palabra):
         if len(palabra) < 1:
             print(palabra, "palindromo!!")
