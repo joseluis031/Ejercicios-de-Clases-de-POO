@@ -3,7 +3,7 @@ class palindromo:
     def iniciar (self,palabra):
       self.palabra = palabra
 
-    def correcto(self):
+    def comprobar(self):
       if len(self.palabra) < 1:
         print ( self.palabra ," es un palindromo!")
       else:
@@ -16,7 +16,7 @@ class palindromo:
 
 palindromo1 = palindromo()
 palindromo1.iniciar(palabra)
-palindromo1.correcto()
+palindromo1.comprobar()
 
 
 
