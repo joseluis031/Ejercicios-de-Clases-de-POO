@@ -1,6 +1,6 @@
 # Ejercicios-de-Clases-de-POO
 
-La dirección de GitHub de este repositorio es:[GitHub](https://github.com/joseluis031/Ejercicios-de-Clases-de-POO.git)
+La dirección de GitHub de este repositorio es: [GitHub](https://github.com/joseluis031/Ejercicios-de-Clases-de-POO.git)
 
 Trabajo realizado por :
 [José Luis](https://github.com/joseluis031) y
