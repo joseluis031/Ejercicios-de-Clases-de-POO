@@ -1,20 +1,21 @@
 import itertools
+import string
 class Test():
   def llamada(self,n,p):
     self.palabra = p
     for i in itertools.repeat (1,n):
       if i == 1:
-        print(Test.llamada(self.palabra , "1"))
+        Test.llamada("Primera llamada")
       else:
-        print(Test.llamada("{}ª" , self.palabra,format(p) ))
+        Test.llamada("{}ª llamada" , format(string) )
 
 
 
 
 
 
-Test1 = Test()
-print(Test1.llamada())
+#Test1 = Test()
+#print(Test1.llamada())
 
 #test = Test() 
 #for i in range(1, 6): 

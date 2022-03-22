@@ -19,7 +19,7 @@ if __name__ == "__main__":
         from Clases.logger import *
         n=int(input("¿Cuántas veces desea repetir la palabra: "))
         Test1 = Test()
-        print(Test1.llamada())
+        print(Test1.llamada(n))
     else:
         print("Ese número no es valido")
     
