@@ -1,5 +1,8 @@
 import itertools
 import string
+import os
+import time
+
 class Test():
   def llamada(self,n,pal):
     self.palabra = pal
@@ -8,6 +11,12 @@ class Test():
         Test.llamada("Primera llamada")
       else:
         Test.llamada("{}ª llamada" , format(string) )
+
+fichero = open("logger.txt","a") #Abre el fichero en el que se creará el número de llamadas
+fichero.write("llamada")
+time.sleep(15) #durará sólo 15s
+os.remove("logger.txt") #Tras transcurrir el tiempo, se destrirá
+
 
 
 
