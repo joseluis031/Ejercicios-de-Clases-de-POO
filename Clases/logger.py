@@ -1,8 +1,8 @@
 import itertools
 import string
 class Test():
-  def llamada(self,n,p):
-    self.palabra = p
+  def llamada(self,n,pal):
+    self.palabra = pal
     for i in itertools.repeat (1,n):
       if i == 1:
         Test.llamada("Primera llamada")
