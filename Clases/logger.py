@@ -1,12 +1,12 @@
-
+import itertools
 class Test():
   def llamada(self,p):
     self.palabra = p
-    for i in range (1,n):
+    for i in itertools.repeat (1,n):
       if i == 1:
-        Test.llamada(self.palabra , "1")
+        print(Test.llamada(self.palabra , "1"))
       else:
-        Test.llamada("{}ª" , self.palabra,format(p) )
+        print(Test.llamada("{}ª" , self.palabra,format(p) ))
 
 
 
@@ -14,6 +14,9 @@ class Test():
 
 palabra=str(input("Introduce la palabra: "))
 n=int(input("¿Cuántas veces desea repetir la palabra: "))
+
+Test1 = Test()
+print(Test1.llamada())
 
 #test = Test() 
 #for i in range(1, 6): 
