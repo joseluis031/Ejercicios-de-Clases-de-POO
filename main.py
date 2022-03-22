@@ -17,6 +17,7 @@ if __name__ == "__main__":
     elif main == 4:
         print("Ejercicio logger: ")
         from Clases.logger import *
+        n=int(input("¿Cuántas veces desea repetir la palabra: "))
         Test1 = Test()
         print(Test1.llamada())
     else:
