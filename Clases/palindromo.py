@@ -9,5 +9,3 @@ class palindromo:
       else: 
         print("False")
 
-palindromo1 = palindromo(palabra)
-print(palindromo1.correcto())
