@@ -13,7 +13,16 @@ if __name__ == "__main__":
     elif main == 3:
         print("Ejercicio puzzle: ")
         from Clases.puzzle import *
-        A.y()
+        a = A  
+        y = a.z 
+        print(y(a)) 
+        aa = a() 
+        print(aa is a()) 
+        z = aa.y 
+        print(z(())) 
+        print(a().y((a,))) 
+        print(A.y(aa, (a,z))) 
+        print(aa.y((z,1,'z'))) 
     elif main == 4:
         print("Ejercicio logger: ")
         from Clases.logger import *
